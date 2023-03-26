@@ -23,3 +23,9 @@ CREATE TABLE Users (
 );
 ```
 Далее написал класс UserAuth. SQL инъекции не работают, все работает через бд, а значит что программу можно перезапускать и все будет нормально работать.
+
+Чтобы запустить проект, нужно прописать:
+```shell
+gradle build
+java -jar build/libs/java_mini_homework_databases.jar
+```
